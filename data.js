@@ -17,6 +17,8 @@ let data = {
 		"Dirty",
 		"Overcrowded stocks",
 		"Stagnant water",
+		"Gap",
+		"Gap on the wall",
 		"Gap around pipe",
 		"Gap under the door",
 		"Gap on the door",
@@ -39,7 +41,10 @@ let data = {
 		"above",
 		"behind",
 		"inside",
-		"of"
+		"of",
+		"on",
+		"near",
+		"in"
 	],
 	"Specifics": [
 		"the cabinet",
@@ -64,6 +69,9 @@ let data = {
 		"the wall",
 		"the window",
 		"the stairs",
-		"the storage"
+		"the storage",
+		"the fire exit",
+		"the ilt",
+		"the entrance"
 	]
 }
