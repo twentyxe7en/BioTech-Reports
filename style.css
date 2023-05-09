@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: Poppins !important;
+/*	font-family: Poppins !important;*/
 	font-family: Calibri;
 }
 
@@ -147,11 +147,12 @@ td select {
 	padding: 1em;
 	width: 50%;
 	height: 100%;
-	background: #e2efeb;
+/*	background: #e2efeb;*/
 	border: 1px solid #555;
-	flex-wrap: wrap;
-	font-size: 10px;
-	font-family: Calibri;
+	word-wrap: normal;
+	font-size: 15px;
+	font-family: Calibri !important1;
+	text-align: center;
 }
 
 .generator div h3 {
