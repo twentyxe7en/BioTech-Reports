@@ -79,6 +79,7 @@ let data = {
 		"the window",
 		"the stairs",
 		"the storage",
+		"the door",
 		"the fire exit",
 		"the ilt",
 		"the entrance",
