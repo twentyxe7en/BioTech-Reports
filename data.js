@@ -15,14 +15,19 @@ let data = {
 	],
 	"Finding": [
 		"Dirty",
+		"Trash",
 		"Overcrowded stocks",
+		"Unused equipments",
 		"Stagnant water",
 		"Gap",
 		"Gap on the wall",
-		"Gap around pipe",
+		"Gap around the pipe",
+		"Gap around the hose",
+		"Gap around the electrical pipe",
 		"Gap under the door",
 		"Gap on the door",
 		"Gap on the baseboard",
+		"Hole",
 		"Hole in the ceiling",
 		"Hole in the wall",
 		"Damaged tiles",
@@ -44,15 +49,20 @@ let data = {
 		"of",
 		"on",
 		"near",
-		"in"
+		"in",
+		"at",
+		"through"
 	],
 	"Specifics": [
 		"the cabinet",
 		"the handwash",
 		"the mop sink",
 		"the water tank",
+		"the walk in",
 		"the freezer",
 		"the chiller",
+		"the walk in freezer",
+		"the walk in chiller",
 		"the open showcase",
 		"the postmix",
 		"the atm",
@@ -61,7 +71,6 @@ let data = {
 		"the gondolas",
 		"the food island",
 		"the office",
-		"the walk in",
 		"the panel board",
 		"the slurpee",
 		"the gulp machine",
@@ -72,6 +81,7 @@ let data = {
 		"the storage",
 		"the fire exit",
 		"the ilt",
-		"the entrance"
+		"the entrance",
+		"on the glasswall"
 	]
 }
