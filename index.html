@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BioTech Reports</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="addRow.js"></script>
+	<script src="generateReport.js"></script>
+	<script src="data.js"></script>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h2>Biotech</h2>
+		</header>
+		<div class="reports">
+			<div class="report">
+				<table id="report-table">
+					<tr id="headers">
+						<td>Type</td>
+						<td>Area</td>
+						<td>Finding</td>
+						<td>Origin</td>
+						<td>Place</td>
+					</tr>
+					<!-- <tr id="report-data"> -->
+						<script>
+							addRow();
+						</script>
+					<!-- </tr> -->
+				</table>
+			</div>
+		</div>
+		<div class="controller">
+			<button onClick="addRow()">Add Row</button>
+			<button onClick="generate()">Generate</button>
+			<button><a href="index.html">Reset</a></button>
+		</div>
+		<div class="generator">
+			<div id="housekeeping">
+				<h3>Housekeeping</h3>
+				<p id="housekeep_findings"></p>
+			</div>
+			<div id="civil_works">
+				<h3>Civil Works</h3>
+				<p id="civil_work_findings"></p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
