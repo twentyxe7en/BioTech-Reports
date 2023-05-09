@@ -7,21 +7,20 @@ function addRow() {
 	var cellType = row.insertCell(0);
 	var cellArea = row.insertCell(1);
 	var cellFinding = row.insertCell(2);
-	var cellOrigin = row.insertCell(3);
-	var cellPlace = row.insertCell(4);
+	var cellAdditional = row.insertCell(3);
+	var cellSpecifics = row.insertCell(4);
 
 	cellType.innerHTML = Type;
 	cellArea.innerHTML = Area;
 	cellFinding.innerHTML = Finding;
-	cellOrigin.innerHTML = Origin;
-	cellPlace.innerHTML = Place;
+	cellAdditional.innerHTML = Additional;
+	cellSpecifics.innerHTML = Specifics;
 
 	cellType.id = "type";
 	cellArea.id = "area";
 	cellFinding.id = "finding";
-	cellOrigin.id = "origin";
-	cellPlace.id = "place";
+	cellAdditional.id = "additional";
+	cellSpecifics.id = "specifics";
 
 	rows++;
-	console.log(rows);
 }
